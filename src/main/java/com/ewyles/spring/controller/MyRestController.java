@@ -19,4 +19,10 @@ public class MyRestController {
 		return "Goodbye, " + name + "!";
 	}
 	
+	@GetMapping(path="/hola/{name}")
+	public String hola(@PathVariable String name)
+	{
+		return "Hola, " + name + "!";
+	}
+	
 }

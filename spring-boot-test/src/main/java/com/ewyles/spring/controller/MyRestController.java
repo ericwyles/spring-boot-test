@@ -13,4 +13,10 @@ public class MyRestController {
 		return "Hello, " + name + "!";
 	}
 	
+	@GetMapping(path="/goodbye/{name}")
+	public String goodBye(@PathVariable String name)
+	{
+		return "Goodbye, " + name + "!";
+	}
+	
 }

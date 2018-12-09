@@ -1,4 +1,4 @@
-package com.ewyles.spring;
+package com.ericwyles.spring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
